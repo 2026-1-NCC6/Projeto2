@@ -17,7 +17,7 @@
 - **Ettore Grecco** — 23025294
 - **Luis Sparrapan** — 23025521
 - **Rafaella Morelli** — 23024902
-- **Rodrigo Gama** — 
+- **Rodrigo Gama** — 23025472
 
 ### Professores Orientadores:
 Victor Bruno Alexander Rosetti de Quiroz,  
