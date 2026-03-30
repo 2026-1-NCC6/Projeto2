@@ -16,7 +16,7 @@
 ### Integrantes:
 - **Ettore Grecco** — 23025294
 - **Luis Sparrapan** — 23025521
-- **Rafaella Morelli** — 
+- **Rafaella Morelli** — 23024902
 - **Rodrigo Gama** — 
 
 ### Professores Orientadores:
