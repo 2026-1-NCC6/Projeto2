@@ -63,6 +63,21 @@ João Francisco Trencher Martins.
 
 ---
 
+## 🛠 Estrutura de pastas
+#Acessando o Site pelo FrontEnd
+
+#Acesse o FrontEnd do site:
+cd \src\Entrega 2\Frontend\Site
+
+# Instale as dependências:
+npm install
+
+# Execute o FrontEnd
+npm run dev
+
+#Acesse o Site
+http://localhost:5173
+
 ## 📋 Licença/License
 Este projeto está licenciado sob a licença CC BY 4.0.
 Você pode criar a sua própria licença Creative Commons em: https://chooser-beta.creativecommons.org/
