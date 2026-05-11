@@ -20,7 +20,7 @@
 - **Rodrigo Gama** — 23025472
 
 ### Professores Orientadores:
-Victor Bruno Alexander Rosetti de Quiroz,  
+Victor Bruno Alexander Rosetti de Queiroz,  
 Edson Ricardo Barbeiro,  
 Lucy Mari Tabuti,  
 Rodnil da Silva Moreira Lisboa,  
@@ -29,7 +29,7 @@ João Francisco Trencher Martins.
 ---
 
 ## 🎯 Descrição
-
+<img src="/imagens/flexhealthDashboard.jpeg" width="620">
  A FlexHealth é uma solução IoT desenvolvida para o monitoramento contínuo e automatizado da cadeia de frio de vacinas e medicamentos de alto custo, garantindo compliance e evitando o descarte de lotes por excursão térmica.
 
 ---
