@@ -29,7 +29,9 @@ João Francisco Trencher Martins.
 ---
 
 ## 🎯 Descrição
+<p align="center">
 <img src="/imagens/flexhealthDashboard.jpeg" width="620">
+</p>
  A FlexHealth é uma solução IoT desenvolvida para o monitoramento contínuo e automatizado da cadeia de frio de vacinas e medicamentos de alto custo, garantindo compliance e evitando o descarte de lotes por excursão térmica.
 
 ---
