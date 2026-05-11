@@ -97,7 +97,7 @@ O terminal permanecerá em execução, indicando que o sistema conectou ao broke
 
 ---
 
-## 2️⃣ Ligar a API REST (O "Garçom")
+## 2️⃣ Ligar a API REST
 
 Este servidor Flask é responsável por buscar os dados no banco e entregá-los ao frontend.
 
@@ -126,7 +126,7 @@ Running on http://127.0.0.1:5000
 
 ---
 
-## 3️⃣ Ligar o Site Web (O Dashboard)
+## 3️⃣ Ligar o Site Web
 
 Agora vamos iniciar a interface React responsável pela visualização dos dados.
 
