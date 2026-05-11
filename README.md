@@ -64,7 +64,6 @@ João Francisco Trencher Martins.
 ---
 
 ## 🛠 Estrutura de pastas
-#Acessando o Site pelo FrontEnd
 
 ### Acesse o FrontEnd do site:
 cd \src\Entrega 2\Frontend\Site
