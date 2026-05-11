@@ -1,0 +1,35 @@
+{
+  "name": "Device",
+  "type": "object",
+  "properties": {
+    "device_id": {
+      "type": "string",
+      "title": "ID do Dispositivo"
+    },
+    "model": {
+      "type": "string",
+      "title": "Modelo"
+    },
+    "ssid": {
+      "type": "string",
+      "title": "SSID WiFi"
+    },
+    "box_id": {
+      "type": "string",
+      "title": "Caixa T\u00e9rmica"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "disponivel",
+        "atribuido",
+        "offline"
+      ],
+      "title": "Status"
+    }
+  },
+  "required": [
+    "device_id",
+    "status"
+  ]
+}
