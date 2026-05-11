@@ -69,6 +69,7 @@ João Francisco Trencher Martins.
 <p align="center">
 <img src="/imagens/EstruturaDoProjeto.png" width="720">
 </p>
+O projeto FlexHealth utiliza um ESP32 com sensor DHT22 para coletar temperaturas e enviá-las via MQTT ao backend em Python. O backend armazena os dados em SQLite e disponibiliza uma API REST consumida pelo dashboard web e aplicativo mobile em React.
 
 ## 🛠 Estrutura de pastas
 
