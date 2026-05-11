@@ -66,16 +66,16 @@ João Francisco Trencher Martins.
 ## 🛠 Estrutura de pastas
 #Acessando o Site pelo FrontEnd
 
-#Acesse o FrontEnd do site:
+### Acesse o FrontEnd do site:
 cd \src\Entrega 2\Frontend\Site
 
-# Instale as dependências:
+### Instale as dependências:
 npm install
 
-# Execute o FrontEnd
+### Execute o FrontEnd
 npm run dev
 
-#Acesse o Site
+### Acesse o Site
 http://localhost:5173
 
 ## 📋 Licença/License
