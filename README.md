@@ -67,17 +67,100 @@ João Francisco Trencher Martins.
 
 ## 🛠 Estrutura de pastas
 
-### Acesse o FrontEnd do site:
-cd \src\Entrega 2\Frontend\Site
+# ▶️ Como Executar o Projeto
 
-### Instale as dependências:
-npm install
+Siga os passos abaixo para iniciar corretamente todos os componentes do sistema.
 
-### Execute o FrontEnd
+---
+
+## 1️⃣ Ligar o Receptor MQTT
+
+Este script é responsável por ouvir o broker HiveMQ e salvar as temperaturas no banco de dados SQLite.
+
+### Abra o primeiro terminal no VS Code
+
+Entre na pasta do backend:
+
+```powershell
+cd "src\Entrega 2\Backend"
+```
+
+Execute o arquivo Python:
+
+```powershell
+python backend.py
+```
+
+### ✅ Sinal de sucesso
+
+O terminal permanecerá em execução, indicando que o sistema conectou ao broker MQTT e está aguardando mensagens.
+
+---
+
+## 2️⃣ Ligar a API REST (O "Garçom")
+
+Este servidor Flask é responsável por buscar os dados no banco e entregá-los ao frontend.
+
+### Abra um segundo terminal
+> Deixe o primeiro terminal rodando em segundo plano.
+
+Entre novamente na pasta do backend:
+
+```powershell
+cd "src\Entrega 2\Backend"
+```
+
+Execute a API:
+
+```powershell
+python api.py
+```
+
+### ✅ Sinal de sucesso
+
+Aparecerá uma mensagem semelhante a:
+
+```powershell
+Running on http://127.0.0.1:5000
+```
+
+---
+
+## 3️⃣ Ligar o Site Web (O Dashboard)
+
+Agora vamos iniciar a interface React responsável pela visualização dos dados.
+
+### Abra um terceiro terminal
+
+Entre na pasta do frontend:
+
+```powershell
+cd "src\Entrega 2\Frontend\Site"
+```
+
+Inicie o servidor web:
+
+```powershell
 npm run dev
+```
 
-### Acesse o Site
+### ✅ Sinal de sucesso
+
+O terminal exibirá um link semelhante a:
+
+```powershell
 http://localhost:5173
+```
+
+Segure a tecla `Ctrl` e clique no link para abrir o dashboard no navegador.
+
+---
+
+# ✅ Ordem Recomendada de Inicialização
+
+1. `backend.py`
+2. `api.py`
+3. `npm run dev`
 
 ## 📋 Licença/License
 Este projeto está licenciado sob a licença CC BY 4.0.
