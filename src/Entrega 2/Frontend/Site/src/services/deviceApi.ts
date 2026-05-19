@@ -1,9 +1,10 @@
-import { dispositivos as mockDispositivos, type Dispositivo } from '@/data/mockData';
+import { dispositivos as mockDispositivos } from '@/data/mockData';
+import type { Dispositivo } from '@/data/mockData'; // Importação direta do tipo
+
+export type { Dispositivo }; // Exportação segura do tipo
 
 export const USE_MOCK = false;
 
-// SEGURANÇA: Buscando o endpoint das variáveis de ambiente (.env)
-// Isso evita expor URLs de produção no código-fonte compilado.
 const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:5000/api';
 
 let dispositivosLocais: Dispositivo[] = [...mockDispositivos];
@@ -35,11 +36,12 @@ export async function listarDispositivos(): Promise<Dispositivo[]> {
 
     const dispositivoReal: Dispositivo = {
       id: ultimaLeitura.dispositivo,
-      nome: "Geladeira Principal",
-      localizacao: "Laboratório A1", 
+      nome: "Caixa Térmica Alpha",
+      localizacao: "Empresa A | Téc: Carlos", 
       temperaturaAtual: ultimaLeitura.temperatura,
       umidadeAtual: ultimaLeitura.umidade,
-      status: ultimaLeitura.status === 'ALERTA' ? 'error' : 'normal',
+      // CORREÇÃO APLICADA: Substituído 'error' por 'alerta'
+      status: ultimaLeitura.status === 'ALERTA' ? 'alerta' : 'normal',
       conexao: 'online',
       ultimaAtualizacao: ultimaLeitura.horario
     };
